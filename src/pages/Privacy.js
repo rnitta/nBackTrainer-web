@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 class Privacy extends React.Component {
   render() {
     return (
-      <p>privacy wl</p>
+      <p>privacy container</p>
     );
   }
 }

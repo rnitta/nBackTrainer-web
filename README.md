@@ -1,6 +1,7 @@
 # About
 Website of iOS app nBackTrainer  
-[Link](http://rnitta.github.io/nBackTrainer-web/)
+[Github Pages](http://rnitta.github.io/nBackTrainer-web/)  
+***[Netlify](https://nbacktrainer.netlify.com/)***
 
 # Dev
 ## requirement

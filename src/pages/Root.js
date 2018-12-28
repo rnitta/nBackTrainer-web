@@ -11,7 +11,7 @@ class Root extends React.Component {
             <li><Link to={'/'}>Home</Link></li>
             <li><Link to={'/privacy'}>Privacy</Link></li>
           </ul>
-          <p> root wl</p>
+          <p>root container</p>
           {this.props.children}
         </div>
       </Router>

@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 class Home extends React.Component {
   render() {
     return (
-      <p>home wl</p>
+      <p>home container</p>
     );
   }
 }
