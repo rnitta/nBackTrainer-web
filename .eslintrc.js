@@ -1,3 +1,14 @@
+const pkg = require('./package.json');
+
+const reactVersion = () => {
+  if (pkg.dependencies && pkg.dependencies.react) {
+    return { version: pkg.dependencies.react.replace(/[^0-9.]/g, '') };
+  }
+  if (pkg.devDependencies && pkg.devDependencies.react) {
+    return { version: pkg.devDependencies.react.replace(/[^0-9.]/g, '') };
+  }
+};
+
 module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
@@ -53,5 +64,10 @@ module.exports = {
     'react/jsx-no-target-blank': 'warn',
     'react/no-deprecated': 'warn',
     'react/prop-types': ['off']
+  },
+  settings: {
+    react: {
+      ...reactVersion()
+    }
   }
 };

@@ -10,7 +10,8 @@
     "release": "NODE_ENV=production webpack --mode production --config webpack.config.js",
     "build": "webpack --mode development --config webpack.config.js",
     "watch": "webpack-dev-server --mode development --open",
-    "lint": "prettier-eslint --write src/**/*.js"
+    "lint": "prettier-eslint --write src/**/*.js",
+    "lintautocorrect": "prettier-eslint"
   },
   "repository": {
     "type": "git",
