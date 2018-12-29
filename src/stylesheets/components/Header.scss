@@ -5,14 +5,22 @@ header {
   height: 100px;
 
   ul.Header-navLinksList {
-    a {
-      color: blue;
-    }
-    a.RRActiveLink {
-      color: white;
+    li {
+      display: inline-block;
+      padding: 5px;
+      background-color: $color-baseForeground;
 
-      &:visited {
-        color: khaki;
+      a {
+        color: lightskyblue;
+        text-decoration: none;
+
+        &:visited {
+          color: gray;
+        }
+      }
+
+      .RRActiveLink {
+        color: gray;
       }
     }
   }
