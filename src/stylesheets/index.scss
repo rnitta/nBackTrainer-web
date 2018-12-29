@@ -1,0 +1,34 @@
+body {
+  background-color: #434343;
+  background-image: url('./img/nBack-icon.png');
+  background-repeat:no-repeat;
+  background-position:right bottom;
+  background-size: 200px;
+}
+
+footer {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100px;
+}
+
+ul.Header-navLinksList {
+  a {
+    color: blue;
+  }
+  a.RRActiveLink {
+    color: white;
+
+    &:visited {
+      color: khaki;
+    }
+  }
+}

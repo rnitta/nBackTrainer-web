@@ -3,9 +3,10 @@ import { render } from 'react-dom';
 import { connect, Provider } from 'react-redux';
 import { createStore } from 'redux';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Root from './pages/Root'
-import Home from './pages/Home'
-import Privacy from './pages/Privacy'
+import './stylesheets/index.scss'
+import Root from './javascripts/pages/Root'
+import Home from './javascripts/pages/Home'
+import Privacy from './javascripts/pages/Privacy'
 
 const initialState = { message: 'hello redux.' };
 const store = createStore(

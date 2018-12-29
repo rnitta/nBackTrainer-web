@@ -20,7 +20,29 @@ module.exports = {
             attrs: [':data-src']
           }
         }
-      },{
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              url: false,
+              sourceMap: !!process.env.WEBPACK_SERVE,
+              importLoaders: 2
+            },
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              // ソースマップの利用有無
+              sourceMap: !!process.env.WEBPACK_SERVE,
+            }
+          }
+        ],
+      },
+      {
         test: /\.jsx?$/,
         exclude:[ /node_modules/ ],
         loader: 'babel-loader'
