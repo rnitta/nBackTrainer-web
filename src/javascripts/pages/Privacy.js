@@ -10,7 +10,7 @@ class Privacy extends React.Component {
 
           <p>
             nBackTrainer is a free application for iOS. It is developed by
-            Ammagrammer and developing it is my hobby.
+            Ammagrammer and developing it is my hobby (not for business).
           </p>
 
           <p>
