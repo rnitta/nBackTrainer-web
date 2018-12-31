@@ -8,22 +8,22 @@ class Privacy extends React.Component {
         <section className="mainSection-container Home-container">
           <h1>Privacy Policy of nBackTrainer</h1>
 
-          <p>
+          <p className="px-20">
             nBackTrainer is a free application for iOS. It is developed by
             Ammagrammer and developing it is my hobby (not for business).
           </p>
 
-          <p>
+          <p className="px-20">
             Amagrammer operates the https://nbacktrainer.netlify.com website.
           </p>
 
-          <p>
+          <p className="px-20">
             This page is used to inform website visitors regarding our policies
             with the collection, use, and disclosure of Personal Information if
             anyone decided to use our Service, the Amagrammer website.
           </p>
 
-          <p>
+          <p className="px-20">
             If you choose to use our Service, then you agree to the collection
             and use of information in relation with this policy. The Personal
             Information that we collect are used for providing and improving the
@@ -31,7 +31,7 @@ class Privacy extends React.Component {
             except as described in this Privacy Policy.
           </p>
 
-          <p>
+          <p className="px-20">
             The terms used in this Privacy Policy have the same meanings as in
             our Terms and Conditions, which is accessible at
             https://nbacktrainer.netlify.com, unless otherwise defined in this
@@ -40,7 +40,7 @@ class Privacy extends React.Component {
 
           <h2>Information Collection and Use</h2>
 
-          <p>
+          <p className="px-20">
             For a better experience while using our Service, we may require you
             to provide us with certain personally identifiable information,
             including but not limited to your name, phone number, and postal
@@ -50,7 +50,7 @@ class Privacy extends React.Component {
 
           <h2>Log Data</h2>
 
-          <p>
+          <p className="px-20">
             We want to inform you that whenever you visit our Service, we
             collect information that your browser sends to us that is called Log
             Data. This Log Data may include information such as your computer’s
@@ -61,19 +61,19 @@ class Privacy extends React.Component {
 
           <h2>Cookies</h2>
 
-          <p>
+          <p className="px-20">
             This page will use cookies, but the application for iOS does not.
           </p>
 
-          <p>Written below is about accessing here.</p>
+          <p className="px-20">Written below is about accessing here.</p>
 
-          <p>
+          <p className="px-20">
             Cookies are files with small amount of data that is commonly used an
             anonymous unique identifier. These are sent to your browser from the
             website that you visit and are stored on your computer’s hard drive.
           </p>
 
-          <p>
+          <p className="px-20">
             Our website uses these "cookies" to collection information and to
             improve our Service. You have the option to either accept or refuse
             these cookies, and know when a cookie is being sent to your
@@ -81,7 +81,7 @@ class Privacy extends React.Component {
             to use some portions of our Service.
           </p>
 
-          <p>
+          <p className="px-20">
             You can learn how to manage cookies on your web browser by following
             the
             <a href="https://privacypolicies.com/blog/browser-cookies-guide/">
@@ -92,7 +92,7 @@ class Privacy extends React.Component {
 
           <h2>Service Providers</h2>
 
-          <p>
+          <p className="px-20">
             We may employ third-party companies and individuals due to the
             following reasons:
           </p>
@@ -104,7 +104,7 @@ class Privacy extends React.Component {
             <li>To assist us in analyzing how our Service is used.</li>
           </ul>
 
-          <p>
+          <p className="px-20">
             We want to inform our Service users that these third parties have
             access to your Personal Information. The reason is to perform the
             tasks assigned to them on our behalf. However, they are obligated
@@ -113,7 +113,7 @@ class Privacy extends React.Component {
 
           <h2>Security</h2>
 
-          <p>
+          <p className="px-20">
             We value your trust in providing us your Personal Information, thus
             we are striving to use commercially acceptable means of protecting
             it. But remember that no method of transmission over the internet,
@@ -123,7 +123,7 @@ class Privacy extends React.Component {
 
           <h2>Links to Other Sites</h2>
 
-          <p>
+          <p className="px-20">
             Our Service may contain links to other sites. If you click on a
             third-party link, you will be directed to that site. Note that these
             external sites are not operated by us. Therefore, we strongly advise
@@ -132,9 +132,9 @@ class Privacy extends React.Component {
             policies, or practices of any third-party sites or services.
           </p>
 
-          <p>Children’s Privacy</p>
+          <p className="px-20">Children’s Privacy</p>
 
-          <p>
+          <p className="px-20">
             Our Services do not address anyone under the age of 13. We do not
             knowingly collect personal identifiable information from children
             under 13. In the case we discover that a child under 13 has provided
@@ -146,7 +146,7 @@ class Privacy extends React.Component {
 
           <h2>Changes to This Privacy Policy</h2>
 
-          <p>
+          <p className="px-20">
             We may update our Privacy Policy from time to time. Thus, we advise
             you to review this page periodically for any changes. We will notify
             you of any changes by posting the new Privacy Policy on this page.
@@ -158,7 +158,7 @@ class Privacy extends React.Component {
 
           <h2>Contact Us</h2>
 
-          <p>
+          <p className="px-20">
             If you have any questions or suggestions about our Privacy Policy,
             do not hesitate to contact us.
           </p>
