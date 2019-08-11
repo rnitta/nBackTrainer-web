@@ -9,18 +9,18 @@ class Privacy extends React.Component {
           <h1>Privacy Policy of nBackTrainer</h1>
 
           <p className="px-20">
-            nBackTrainer is a free application for iOS. It is developed by
-            Ammagrammer and developing it is my hobby (not for business).
+            nBackTrainer is a free application. It is developed by rnitta and
+            developing it is my hobby (not for business).
           </p>
 
           <p className="px-20">
-            Amagrammer operates the https://nbacktrainer.netlify.com website.
+            rnitta operates the https://nbacktrainer.netlify.com website.
           </p>
 
           <p className="px-20">
             This page is used to inform website visitors regarding our policies
             with the collection, use, and disclosure of Personal Information if
-            anyone decided to use our Service, the Amagrammer website.
+            anyone decided to use our Service, the rnitta website.
           </p>
 
           <p className="px-20">
@@ -62,7 +62,7 @@ class Privacy extends React.Component {
           <h2>Cookies</h2>
 
           <p className="px-20">
-            This page will use cookies, but the application for iOS does not.
+            This page will use cookies, but the application does not.
           </p>
 
           <p className="px-20">Written below is about accessing here.</p>

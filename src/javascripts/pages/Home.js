@@ -22,6 +22,8 @@ class Home extends React.Component {
               target={'_blank'}
             />
           </p>
+          <p className="px-20">for Google Assistant</p>
+          <p className="px-20">comming soon...</p>
         </section>
         <section className="mainSection-container Home-container mt-20">
           <h1>そのうちなにか書くつもりだった</h1>
