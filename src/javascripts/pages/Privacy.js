@@ -44,8 +44,9 @@ class Privacy extends React.Component {
             For a better experience while using our Service, we may require you
             to provide us with certain personally identifiable information,
             including but not limited to your name, phone number, and postal
-            address. The information that we collect will be used to contact or
-            identify you.
+            address only with your consent. The information that we may collect
+            will be used to contact or identify you. Currently, we do not
+            collect any personally identifiable information.
           </p>
 
           <h2>Log Data</h2>
